@@ -14,5 +14,10 @@ public class TypeCasting {
         System.out.println("numDouble2: "+numDouble2);
         System.out.println("numInt2: "+numInt2);
 
+        // convert int to str
+        String str1 = String.valueOf(numInt1);
+
+        System.out.println("str1"+str1);
+
     }
 }
