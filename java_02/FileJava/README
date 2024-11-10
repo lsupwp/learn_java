@@ -1,0 +1,5 @@
+การอ่านและเขียนไฟล์เบื้องต้น
+* FileWriter        => FileWriter writer = new FileWriter(<FilePath>);
+* FileReader        => FileReader r = new FileReader(<FilePath>);
+* BufferedWriter
+* BufferedReader
