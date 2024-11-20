@@ -21,7 +21,7 @@
 public class Generic4 {
     static <T> void show_array(T[] array){
         String text = "{";
-        for (int i = 0; i<array.length - 1; i++){
+        for (int i = 0; i<array.length; i++){
             text+=array[i]+", ";
         }
         text+="}";
