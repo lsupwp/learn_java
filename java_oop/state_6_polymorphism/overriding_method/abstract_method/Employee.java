@@ -41,7 +41,7 @@ abstract class Employee {
     }
     
     // abstract method ต้องระบุ abstract ให้กับ class ด้วย
-    // ถ้า class เป็น abstract method มน class นั้นๆจะต้องเป็น abstract method ด้วยอย่างน้อย 1 ตัว
+    // ถ้า class เป็น abstract method ใน class นั้นๆจะต้องเป็น abstract method ด้วยอย่างน้อย 1 ตัว
     // ถ้ามี class ลูกจะต้องกำหนด method ที่เป็น abstract method จาก class แม่ใน class ลูกด้วย
     public abstract void bonus();
 }
